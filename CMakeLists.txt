@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 # set(CMAKE_C_STANDARD 89)
-
+set(CMAKE_BUILD_TYPE Debug)
 #project name
 project(low_level C)
 
@@ -14,6 +14,7 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 # Files become a shared library
 file (GLOB SHARED_SRC
   "_putschar.c"
+  "binary_tree_print.c"
   "0-binary_tree_node.c"
   "1-binary_tree_insert_right.c"
   "2-binary_tree_insert_left.c"

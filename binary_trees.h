@@ -8,7 +8,6 @@
  * @left: left sibling pointer
  * @right: right sibling pointer
  */
-#include <typeindex>
 struct binary_tree_s
 {
 	int n;
@@ -26,5 +25,10 @@ typedef struct binary_tree_s bst_t;
 /* AVL Tree*/
 typedef struct binary_tree_s avl_t;
 
+/*helper*/
 void binary_tree_print(const binary_tree_t *);
-#endif // !BINARY_TREES_H
+
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+#endif /* !BINARY_TREES_H*/
