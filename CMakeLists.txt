@@ -26,7 +26,7 @@ file (GLOB SHARED_SRC
   "8-binary_tree_postorder.c"
   "9-binary_tree_height.c"
   "10-binary_tree_depth.c"
-  "11-binary_tree-size.c"
+  "11-binary_tree_size.c"
   "12-binary_tree_leaves.c"
   "13-binary_tree_nodes.c"
   "14-binary_tree_balance.c"
