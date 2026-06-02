@@ -3,9 +3,12 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_insert_left - inserts value to the left child of the binary tree
- * @parent: parent of the tree
- * @value: value to be added in the tree
+ *binary_tree_insert_left - add a left child to the binary tree
+ *
+ * @parent: parent of the tree pointer
+ * @value: value to add to the tree
+ *
+ * Return: pointer to the new left child or NULL if it fails
  */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
